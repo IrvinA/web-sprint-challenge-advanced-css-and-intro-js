@@ -23,10 +23,25 @@ Commit your code regularly and meaningfully.
 Please answer the following questions below, you may edit the readme file to include your answers below the question.
 
 1. How would you describe acessibility on the web to someone new to programming?
+
+Accessibility in programming is designing web pages with the intent and mindfulness of allowing anyone to view your webpage, regardless of physical ability or lack thereof.
+
 2. Talk about 3 different things you can do to ensure your website is accessible. 
+
+To make a website accessible, a website design needs a viewport meta tag in its HTML head, media queries in the bottom of its CSS, and semantic HTML with complete alt tags.
+
 3. How would you explain the concept of a variable to someone new to programming?
+
+A variable is a container that store any type of data that can be called upon later on. There are 3 different variable names each with it own rules and uses. The Var type is a variable that can be reassigned and redeclared, but is function scoped. The Let type can also be reassigned, but cannot be redeclared and is block scoped. THe final form, Const type, can be neither redeclared or reassigned and is also block scoped. 
+
 4. What is the purpose of using functions in code?
+
+The purpose of using functions in coding is essentially to make a programmers life easier. A function can be invoked in code as many times as needed and can be used for many elements within a code.  Functions save a lot of time by replacing lines upon lines of hard coded information, so instead of having to repeat yourself over and over again, it helps to keep your code DRY (Dont Repeat Yourself)
+
 5. How do you access a key inside of an object inside of an array?
+
+There are 2 ways to access the key of an object in an array. The first is dot notation, you call the key by writing out the array name followed by a '.' and the key name: (array.key;)
+The second form is bracket notation, which is written out with the array name followed by the string of the key inside brackets: (array['key'];) 
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
 
