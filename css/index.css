@@ -149,9 +149,19 @@ button:hover{
     }
     h1{
         font-size: 3rem;
+        font-weight: 600;
         line-height: 1.2;
+        letter-spacing: 1.5px;
+        padding: 2%;
     }
     button{
-
+        border-radius: 2px;
+        width: 23%;
+        padding: 1.5% 0;
+        border: 1px;
+        color: #626262;
+        font-size: 1.1rem;
+        line-height: 1;
+        box-shadow: 0;
     }
 }
