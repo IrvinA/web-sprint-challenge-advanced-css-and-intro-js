@@ -137,6 +137,7 @@ button:hover{
 
 /*Mobile Media Design Style*/
 @media (max-width: 500px){
+    /*Header Styles*/
     nav{
         width: 37%;
     }
@@ -146,6 +147,10 @@ button:hover{
     nav span{
         margin: 2% 0;
         border-left:2px solid #626262;
+    }
+    /*Title Section STyles*/
+    .title-container div{
+        margin-bottom: 0;
     }
     h1{
         font-size: 3rem;
@@ -164,4 +169,14 @@ button:hover{
         line-height: 1;
         box-shadow: 0;
     }
+    /*Artist Section Styles*/
+    .artists-container{
+
+        flex-direction: column;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
 }
